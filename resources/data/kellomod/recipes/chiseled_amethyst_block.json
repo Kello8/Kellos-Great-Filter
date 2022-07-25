@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:chiseled_quartz_block"
+    }
+  },
+  "pattern": [
+    "X#"
+  ],
+  "result": {
+    "item": "kellomod:chiseled_amethyst_block"
+  }
+}

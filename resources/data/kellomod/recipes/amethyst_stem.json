@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result": {
+    "count": 8,
+    "item": "kellomod:amethyst_stem"
+  }
+}

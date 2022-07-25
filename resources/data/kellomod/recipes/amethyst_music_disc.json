@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "kellomod:amethyst_disc_fragment"
+    },
+    "X": {
+      "item": "minecraft:music_disc_13"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "kellomod:amethyst_music_disc"
+  }
+}

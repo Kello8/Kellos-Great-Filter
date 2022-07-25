@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:golden_apple"
+    },
+
+    "O": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "O#O",
+    "#X#",
+    "O#O"
+  ],
+  "result": {
+    "item": "kellomod:amethyst_apple"
+  }
+}
