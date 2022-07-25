@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "kellomod:calcite_tiles",
+    "kellomod:calcite_tiles_slab",
+    "kellomod:polished_calcite_bricks",
+    "kellomod:polished_calcite_bricks_slab",
+    "kellomod:calcite_tiles_stairs",
+    "kellomod:polished_calcite_bricks_stairs",
+    "kellomod:chiseled_amethyst_block,",
+    "kellomod:amethyst_bench"
+  ]
+}

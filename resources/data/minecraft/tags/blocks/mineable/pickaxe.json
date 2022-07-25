@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "kellomod:amethyst_shard_block",
+    "kellomod:calcite_tiles",
+    "kellomod:calcite_tiles_slab",
+    "kellomod:polished_calcite_bricks",
+    "kellomod:polished_calcite_bricks_slab",
+    "kellomod:calcite_tiles_stairs",
+    "kellomod:polished_calcite_bricks_stairs",
+    "kellomod:cut_amethyst",
+    "kellomod:cut_amethyst_slab",
+    "kellomod:polished_amethyst",
+    "kellomod:polished_amethyst_slab",
+    "kellomod:amethyst_bricks",
+    "kellomod:amethyst_bricks_slab",
+    "kellomod:cut_amethyst_stairs",
+    "kellomod:polished_amethyst_stairs",
+    "kellomod:amethyst_bricks_stairs",
+    "kellomod:chiseled_amethyst_block",
+    "kellomod:amethyst_bench"
+  ]
+}
