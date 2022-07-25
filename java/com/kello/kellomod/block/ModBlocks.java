@@ -30,34 +30,34 @@ public class ModBlocks {
                     .strength(3f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> AMETHYST_SHARD_BLOCK = registerBlock("amethyst_shard_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.4f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> POLISHED_AMETHYST = registerBlock("polished_amethyst",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> AMETHYST_BRICKS = registerBlock("amethyst_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> CUT_AMETHYST = registerBlock("cut_amethyst",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> POLISHED_AMETHYST_SLAB = registerBlock("polished_amethyst_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> AMETHYST_BRICKS_SLAB = registerBlock("amethyst_bricks_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> CUT_AMETHYST_SLAB = registerBlock("cut_amethyst_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> POLISHED_AMETHYST_STAIRS = registerBlock("polished_amethyst_stairs",
             () -> new StairBlock(() -> ModBlocks.POLISHED_AMETHYST.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> AMETHYST_BRICKS_STAIRS = registerBlock("amethyst_bricks_stairs",
             () -> new StairBlock(() -> ModBlocks.AMETHYST_BRICKS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> CUT_AMETHYST_STAIRS = registerBlock("cut_amethyst_stairs",
             () -> new StairBlock(() -> ModBlocks.CUT_AMETHYST.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(2.1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(2.1f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> CHISELED_AMETHYST_BLOCK = registerBlock("chiseled_amethyst_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
                     .strength(0.7f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)), CreativeModeTab.TAB_BUILDING_BLOCKS);
