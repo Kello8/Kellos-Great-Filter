@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "kellomod:block/amethyst_bench_bottom",
+    "east": "kellomod:block/amethyst_bench_side",
+    "north": "kellomod:block/amethyst_bench_front",
+    "particle": "kellomod:block/amethyst_bench_front",
+    "south": "kellomod:block/amethyst_bench_front",
+    "up": "kellomod:block/amethyst_bench_top",
+    "west": "kellomod:block/amethyst_bench_side"
+  }
+}

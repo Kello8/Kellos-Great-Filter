@@ -1,0 +1,13 @@
+{
+ "variants": {
+  "type=bottom": {
+   "model": "kellomod:block/calcite_tiles_slab"
+  },
+  "type=double": {
+   "model": "kellomod:block/calcite_tiles_slab"
+  },
+  "type=top": {
+   "model": "kellomod:block/calcite_tiles_slab"
+  }
+ }
+}

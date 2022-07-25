@@ -1,0 +1,10 @@
+{
+  "amethyst_disc": {
+    "sounds": [
+      {
+        "name": "kellomod:amethyst_disc",
+        "stream": true
+      }
+    ]
+  }
+}

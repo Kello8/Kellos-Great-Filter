@@ -1,0 +1,58 @@
+{
+      // Tools
+  "item.kellomod.amethyst_sword": "Amethyst Sword",
+  "item.kellomod.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.kellomod.amethyst_shovel": "Amethyst Shovel",
+  "item.kellomod.amethyst_axe": "Amethyst Axe",
+  "item.kellomod.amethyst_hoe": "Amethyst Hoe",
+  "item.kellomod.amethystbow": "Amethyst Bow",
+  "item.kellomod.amethystclock": "Amethyst Clock",
+
+      // Armor
+  "item.kellomod.amethyst_helmet": "Amethyst Helmet",
+  "item.kellomod.amethyst_chestplate": "Amethyst Chestplate",
+  "item.kellomod.amethyst_leggings": "Amethyst Leggings",
+  "item.kellomod.amethyst_boots": "Amethyst Boots",
+
+    // Food
+  "item.kellomod.amethyst_bread": "Amethyst Bread",
+  "item.kellomod.amethyst_apple": "Amethyst Apple",
+  "item.kellomod.amethyst_carrot": "Amethyst Carrot",
+  "item.kellomod.amethyst_beef": "Amethyst Steak",
+
+    // Potions
+  "item.minecraft.potion.effect.glowing_potion": "Glowing Potion",
+  "item.minecraft.splash_potion.effect.glowing_potion": "Splash Potion of Glowing",
+  "item.minecraft.lingering_potion.effect.glowing_potion": "Lingering Potion of Glowing",
+
+    // Misc
+  "item.kellomod.amethyst_music_disc": "Amethyst Music Disc",
+  "item.kellomod.amethyst_music_disc.desc": "Der Hausmeister - Es ist nur eine brennende Erinnerung",
+  "item.kellomod.amethyst_disc_fragment": "Amethyst Disc Fragment",
+  "item.kellomod.amethyst_coal": "Amethyst Coal",
+
+    // Blocks
+  "block.kellomod.chiseled_amethyst_block": "Chiseled Amethyst Block",
+  "block.kellomod.amethyst_stem": "Amethyst Hyphae",
+  "block.kellomod.amethyst_bench": "Amethyst Bench",
+  "block.kellomod.amethyst_shard_block": "Block of Amethyst Shards",
+  "block.kellomod.polished_amethyst": "Polished Amethyst",
+  "block.kellomod.amethyst_bricks": "Amethyst Bricks",
+  "block.kellomod.cut_amethyst": "Cut Amethyst",
+  "block.kellomod.polished_amethyst_slab": "Polished Amethyst Slab",
+  "block.kellomod.amethyst_bricks_slab": "Amethyst Bricks Slab",
+  "block.kellomod.cut_amethyst_slab": "Cut Amethyst Slab",
+  "block.kellomod.polished_amethyst_stairs": "Polished Amethyst Stairs",
+  "block.kellomod.amethyst_bricks_stairs": "Amethyst Brick Stairs",
+  "block.kellomod.cut_amethyst_stairs": "Cut Amethyst Stairs",
+  "block.kellomod.polished_calcite_bricks": "Polished Calcite Bricks",
+  "block.kellomod.calcite_tiles": "Calcite Tiles",
+  "block.kellomod.polished_calcite_bricks_slab": "Polished Calcite Bricks Slab",
+  "block.kellomod.calcite_tiles_slab": "Calcite Tiles Slab",
+  "block.kellomod.polished_calcite_bricks_stairs": "Polished Calcite Brick Stairs",
+  "block.kellomod.calcite_tiles_stairs": "Calcite Tiles Stairs",
+
+  // Entities
+  "entity.minecraft.villager.kellomod.gemologist": "Gemologist"
+
+}

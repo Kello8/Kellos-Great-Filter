@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "kellomod:block/polished_amethyst",
+    "side": "kellomod:block/polished_amethyst",
+    "top": "kellomod:block/polished_amethyst"
+  }
+}

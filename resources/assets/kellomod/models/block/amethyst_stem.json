@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kellomod:block/amethyst_stem",
+    "side": "kellomod:block/amethyst_stem"
+  }
+}
