@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "kellomod:amethyst_pickaxe"
+    },
+    "title": "Glass Pickaxe",
+    "description": "Obtain an Amethyst Pickaxe!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "kellomod:kellomod",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kellomod:amethyst_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

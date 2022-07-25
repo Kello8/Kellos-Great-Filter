@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "kellomod:amethystclock"
+    },
+    "title": "Kello's Chad Mod",
+    "description": "Mine an Amethyst Cluster.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "kellomod:textures/block/chiseled_amethyst_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

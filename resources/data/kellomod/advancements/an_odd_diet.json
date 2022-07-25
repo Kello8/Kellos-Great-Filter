@@ -1,0 +1,73 @@
+{
+  "parent": "kellomod:an_apple_a_day",
+  "criteria": {
+    "apple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_apple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "beef": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_beef"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "bread": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_bread"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "carrot": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_carrot"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Consume Every Piece of Amethyst Food",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "kellomod:amethyst_carrot"
+    },
+    "show_toast": true,
+    "title": "An Odd Diet"
+  },
+  "requirements": [
+    [
+      "apple"
+    ],
+    [
+      "carrot"
+    ],
+    [
+      "bread"
+    ],
+    [
+      "beef"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  }
+}
