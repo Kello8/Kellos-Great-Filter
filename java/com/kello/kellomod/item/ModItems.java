@@ -51,6 +51,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1).fireResistant()));
     public static final RegistryObject<Item> AMETHYST_BREAD = ITEMS.register("amethyst_bread",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMETHYST_BREAD)));
+    public static final RegistryObject<Item> AMETHYST_CHICKEN = ITEMS.register("amethyst_chicken",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMETHYST_CHICKEN)));
+    public static final RegistryObject<Item> AMETHYST_MUTTON = ITEMS.register("amethyst_mutton",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMETHYST_MUTTON)));
+    public static final RegistryObject<Item> AMETHYST_BEETROOT = ITEMS.register("amethyst_beetroot",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMETHYST_BEETROOT)));
+    public static final RegistryObject<Item> AMETHYST_POTATO = ITEMS.register("amethyst_potato",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMETHYST_POTATO)));
     public static final RegistryObject<Item> AMETHYST_CARROT = ITEMS.register("amethyst_carrot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMETHYST_CARROT)));
     public static final RegistryObject<Item> AMETHYST_BEEF = ITEMS.register("amethyst_beef",
