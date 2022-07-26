@@ -1,6 +1,46 @@
 {
   "parent": "kellomod:an_apple_a_day",
   "criteria": {
+    "chicken": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_chicken"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mutton": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_mutton"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "potato": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_potato"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "beetroot": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_beetroot"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "apple": {
       "conditions": {
         "item": {
@@ -55,6 +95,18 @@
   },
   "requirements": [
     [
+      "chicken"
+    ],
+    [
+      "mutton"
+    ],
+    [
+      "potato"
+    ],
+    [
+      "beetroot"
+    ],
+    [
       "apple"
     ],
     [
@@ -68,6 +120,6 @@
     ]
   ],
   "rewards": {
-    "experience": 30
+    "experience": 80
   }
 }
