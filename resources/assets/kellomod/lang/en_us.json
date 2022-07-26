@@ -19,6 +19,11 @@
   "item.kellomod.amethyst_apple": "Amethyst Apple",
   "item.kellomod.amethyst_carrot": "Amethyst Carrot",
   "item.kellomod.amethyst_beef": "Amethyst Steak",
+  "item.kellomod.amethyst_chicken": "Amethyst Chicken",
+  "item.kellomod.amethyst_mutton": "Amethyst Mutton",
+  "item.kellomod.amethyst_beetroot": "Amethyst Beetroot",
+  "item.kellomod.amethyst_potato": "Amethyst Potato",
+
 
     // Potions
   "item.minecraft.potion.effect.glowing_potion": "Glowing Potion",
