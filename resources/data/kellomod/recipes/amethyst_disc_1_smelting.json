@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 1400,
+  "experience": 10,
+  "ingredient": {
+    "item": "kellomod:amethyst_music_disc"
+  },
+  "result": "kellomod:amethyst_music_disc_1"
+}
