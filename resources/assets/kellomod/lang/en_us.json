@@ -13,17 +13,21 @@
   "item.kellomod.amethyst_chestplate": "Amethyst Chestplate",
   "item.kellomod.amethyst_leggings": "Amethyst Leggings",
   "item.kellomod.amethyst_boots": "Amethyst Boots",
+  "item.kellomod.amethystnetherite_helmet": "Amethyst Netherite Helmet",
+  "item.kellomod.amethystnetherite_chestplate": "Amethyst Netherite Chestplate",
+  "item.kellomod.amethystnetherite_leggings": "Amethyst Netherite Leggings",
+  "item.kellomod.amethystnetherite_boots": "Amethyst Netherite Boots",
 
     // Food
   "item.kellomod.amethyst_bread": "Amethyst Bread",
   "item.kellomod.amethyst_apple": "Amethyst Apple",
+  "item.kellomod.amethyst_god_apple": "Amethyst God Apple",
   "item.kellomod.amethyst_carrot": "Amethyst Carrot",
   "item.kellomod.amethyst_beef": "Amethyst Steak",
   "item.kellomod.amethyst_chicken": "Amethyst Chicken",
   "item.kellomod.amethyst_mutton": "Amethyst Mutton",
   "item.kellomod.amethyst_beetroot": "Amethyst Beetroot",
   "item.kellomod.amethyst_potato": "Amethyst Potato",
-
 
     // Potions
   "item.minecraft.potion.effect.glowing_potion": "Glowing Potion",
@@ -33,7 +37,12 @@
     // Misc
   "item.kellomod.amethyst_music_disc": "Amethyst Music Disc",
   "item.kellomod.amethyst_music_disc.desc": "Der Hausmeister - Es ist nur eine brennende Erinnerung",
+  "item.kellomod.amethyst_music_disc_1": "Amethyst Music Disc",
+  "item.kellomod.amethyst_music_disc_1.desc": "Der Hausmeister - Es ist nur eine brennende Erinnerung",
+  "item.kellomod.amethyst_music_disc_2": "Amethyst Disc",
+  "item.kellomod.amethyst_music_disc_2.desc": "Desolate",
   "item.kellomod.amethyst_disc_fragment": "Amethyst Disc Fragment",
+  "item.kellomod.amethystnetherite_ingot": "Amethyst Netherite Ingot",
   "item.kellomod.amethyst_coal": "Amethyst Coal",
 
     // Blocks
