@@ -1,0 +1,10 @@
+v0.1.18
+AMETHYST GOD APPLE CHANGES
+-Lower Resistence from blocking 200% damage to 80%
+-Lower Regeneration to level 2 instead of 3
+-Lower Strength to level 4 from 5
+-Increase duration of Resistence by 1.5x
+-Increase duration of Glowing by 2x
+-Increase duration of Fire Resistence by 2x
+-Increased duration of Strength by 1.5x
+-Decreased duration of saturation by 0.25x
