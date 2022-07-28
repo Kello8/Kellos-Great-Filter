@@ -6,5 +6,21 @@
         "stream": true
       }
     ]
+  },
+  "amethyst1_disc": {
+    "sounds": [
+      {
+        "name": "kellomod:amethyst1_disc",
+        "stream": true
+      }
+    ]
+  },
+  "amethyst2_disc": {
+    "sounds": [
+      {
+        "name": "kellomod:amethyst2_disc",
+        "stream": true
+      }
+    ]
   }
 }
