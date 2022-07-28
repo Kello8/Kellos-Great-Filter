@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "kellomod:amethyst_apple"
+    },
+    "X": {
+      "item": "minecraft:netherite_block"
+    },
+
+    "O": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "pattern": [
+    "O#O",
+    "#X#",
+    "O#O"
+  ],
+  "result": {
+    "item": "kellomod:amethyst_god_apple"
+  }
+}
