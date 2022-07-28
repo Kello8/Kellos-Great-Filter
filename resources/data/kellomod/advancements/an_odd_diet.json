@@ -51,6 +51,16 @@
       },
       "trigger": "minecraft:consume_item"
     },
+    "godapple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_god_apple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "beef": {
       "conditions": {
         "item": {
@@ -107,6 +117,9 @@
       "beetroot"
     ],
     [
+      "godapple"
+    ],
+    [
       "apple"
     ],
     [
@@ -120,6 +133,6 @@
     ]
   ],
   "rewards": {
-    "experience": 80
+    "experience": 500
   }
 }

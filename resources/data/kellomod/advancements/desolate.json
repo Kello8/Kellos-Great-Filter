@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "kellomod:amethyst_music_disc_2"
+    },
+    "title": "Desolate",
+    "description": "Desolate",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "kellomod:an_eerie_tune",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kellomod:amethyst_music_disc_2"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
