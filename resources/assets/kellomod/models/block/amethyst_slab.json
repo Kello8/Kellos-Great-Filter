@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "kellomod:block/amethyst_planks",
+    "side": "kellomod:block/amethyst_planks",
+    "top": "kellomod:block/amethyst_planks"
+  }
+}
