@@ -72,6 +72,16 @@ public class ModEvents {
 
         if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYST_COAL.get(), 3);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 13),
+                    stack,16,36,0.10F));
+        }
+
+        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_AXE.get(), 1);
             int villagerLevel = 1;
 
@@ -108,6 +118,16 @@ public class ModEvents {
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 16),
                     stack,2,36,0.10F));
+        }
+
+        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYST_COAL.get(), 3);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    stack,16,36,0.10F));
         }
 
         if(event.getType() == ModVillagers.GEMOLOGIST.get()) {

@@ -13,6 +13,8 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, KelloMod.MOD_ID);
 
     public static RegistryObject<SoundEvent> AMETHYST_DISC = registerSoundEvent("amethyst_disc");
+    public static RegistryObject<SoundEvent> AMETHYST1_DISC = registerSoundEvent("amethyst1_disc");
+    public static RegistryObject<SoundEvent> AMETHYST2_DISC = registerSoundEvent("amethyst2_disc");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         return SOUND_EVENTS.register(name, () -> new SoundEvent(new ResourceLocation(KelloMod.MOD_ID, name)));
