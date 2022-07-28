@@ -3,6 +3,9 @@
     "kellomod:amethyst_bench",
     "kellomod:amethyst_shard_block,",
     "kellomod:chiseled_amethyst_block",
-    "kellomod:amethyst_stem"
+    "kellomod:amethyst_stem",
+    "kellomod:amethyst_planks",
+    "kellomod:amethyst_slab",
+    "kellomod:amethyst_stairs"
   ]
 }

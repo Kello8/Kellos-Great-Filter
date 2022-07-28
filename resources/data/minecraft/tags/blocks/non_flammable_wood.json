@@ -1,5 +1,8 @@
 {
   "values": [
-    "kellomod:amethyst_stem"
+    "kellomod:amethyst_stem",
+    "kellomod:amethyst_planks",
+    "kellomod:amethyst_slab",
+    "kellomod:amethyst_stairs"
   ]
 }

@@ -8,6 +8,8 @@
     "kellomod:calcite_tiles_stairs",
     "kellomod:polished_calcite_bricks_stairs",
     "kellomod:chiseled_amethyst_block,",
-    "kellomod:amethyst_bench"
+    "kellomod:amethyst_bench",
+    "kellomod:deepstone_bricks",
+    "kellomod:calcite_pillar"
   ]
 }
