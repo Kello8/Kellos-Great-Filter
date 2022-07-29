@@ -16,6 +16,10 @@ public class ModPaintings {
             () -> new PaintingVariant(48, 48));
     public static final RegistryObject<PaintingVariant> HAMPTER = PAINTING_VARIANTS.register("hampter",
             () -> new PaintingVariant(16, 16));
+    public static final RegistryObject<PaintingVariant> MIDMORNING = PAINTING_VARIANTS.register("midmorning",
+            () -> new PaintingVariant(32, 32));
+    public static final RegistryObject<PaintingVariant> SANDALCONSUMER = PAINTING_VARIANTS.register("sandalconsumer",
+            () -> new PaintingVariant(32, 32));
     public static void register(IEventBus eventBus) {
         PAINTING_VARIANTS.register(eventBus);
     }

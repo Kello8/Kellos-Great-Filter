@@ -30,6 +30,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PURPLE_SCULK = registerBlock("purple_sculk",
             () -> new Block(BlockBehaviour.Properties.of(Material.SCULK)
                     .strength(10000f).explosionResistance(10000).sound(SoundType.SCULK).lightLevel((state) -> 5).jumpFactor(0.8F)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PURPLE_SCULK_SENSOR = registerBlock("purple_sculk_sensor",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SCULK)
+                    .strength(10000f).explosionResistance(10000).sound(SoundType.SCULK).lightLevel((state) -> 7).jumpFactor(0.8F)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> PURPLE_SCULK_BRICKS = registerBlock("purple_sculk_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.SCULK)
                     .strength(10000f).explosionResistance(10000).sound(SoundType.DEEPSLATE_BRICKS).lightLevel((state) -> 3).jumpFactor(0.8F)), CreativeModeTab.TAB_BUILDING_BLOCKS);
