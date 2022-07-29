@@ -1,4 +1,14 @@
 v0.1.18
+Added Blocks,
+- Added Purple Sculk
+- Added Purple Sculk Bricks
+- Added Purple Sculk Alter
+- Added Deepstone
+- Added Enchant 'Fang Striker'
+- Added Amethyst Stem
+- Added Amethyst Planks
+- Added Amethyst Slab
+
 AMETHYST GOD APPLE CHANGES
 -Lower Resistence from blocking 200% damage to 80%
 -Lower Regeneration to level 2 instead of 3
@@ -8,3 +18,10 @@ AMETHYST GOD APPLE CHANGES
 -Increase duration of Fire Resistence by 2x
 -Increased duration of Strength by 1.5x
 -Decreased duration of saturation by 0.25x
+
+
+
+Known Issues,
+- Axes now mine slower than by hand.
+- Putting 2 Amethyst Slabs on eachother shows missing texture.
+- Amethyst Bricks don't have a loot_table
