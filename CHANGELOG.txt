@@ -12,6 +12,10 @@ v0.1.19
 - Added Amethyst Rotten Flesh
 - Added Amethyst Sweet Berries
 
+- Added Smooth Basalt Bricks
+- Added Smooth Basalt Brick Slab
+- Added Smooth Basalt Brick Stairs
+
 - Added Advancement 'Incredible Dedication'
 - Updated Advancement 'An Odd Diet' to new Food items
 - Increased Experience Reward for 'An Odd Diet' from 500 to 750
