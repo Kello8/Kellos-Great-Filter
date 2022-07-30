@@ -14,8 +14,12 @@ v0.1.19
 
 - Added Advancement 'Incredible Dedication'
 - Updated Advancement 'An Odd Diet' to new Food items
+- Increased Experience Reward for 'An Odd Diet' from 500 to 750
+
 
 - Fixed Issue: Axes are slower at mining wood than by hand
+
+
 
 ---
 v0.1.18
