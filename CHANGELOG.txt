@@ -1,4 +1,4 @@
-vo.1.19
+v0.1.19
 - Added Amethyst Netherite Sword
 - Added Amethyst Netherite Axe
 - Added Amethyst Netherite Pickaxe
