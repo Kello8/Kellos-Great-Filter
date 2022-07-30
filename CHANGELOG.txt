@@ -5,8 +5,17 @@ v0.1.19
 - Added Amethyst Netherite Shovel
 - Added Amethyst Netherite Hoe
 
-- Added Advancement 'Incredible Dedication'
+- Added Amethyst Cookie
+- Added Amethyst Rabbit
+- Added Amethyst Melon Slice
+- Added Amethyst Poisonous Potato
+- Added Amethyst Rotten Flesh
+- Added Amethyst Sweet Berries
 
+- Added Advancement 'Incredible Dedication'
+- Updated Advancement 'An Odd Diet' to new Food items
+
+- Fixed Issue: Axes are slower at mining wood than by hand
 
 ---
 v0.1.18
