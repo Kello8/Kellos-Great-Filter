@@ -4,6 +4,7 @@ v0.1.19
 - Added Amethyst Netherite Pickaxe
 - Added Amethyst Netherite Shovel
 - Added Amethyst Netherite Hoe
+- Added Amethyst Shears
 
 - Added Amethyst Cookie
 - Added Amethyst Rabbit
