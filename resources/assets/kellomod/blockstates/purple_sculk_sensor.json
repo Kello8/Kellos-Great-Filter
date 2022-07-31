@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "sculk_sensor_phase=active": {
+      "model": "kellomod:block/purple_sculk_sensor_active"
+    },
+    "sculk_sensor_phase=cooldown": {
+      "model": "kellomod:block/purple_sculk_sensor_inactive"
+    },
+    "sculk_sensor_phase=inactive": {
+      "model": "kellomod:block/purple_sculk_sensor_inactive"
+    }
+  }
+}

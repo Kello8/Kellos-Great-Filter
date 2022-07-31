@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "kellomod:block/smooth_basalt_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "kellomod:block/smooth_basalt_brick_slab"
+    },
+    "type=double": {
+      "model": "kellomod:block/smooth_basalt_bricks"
+    }
+  }
+}

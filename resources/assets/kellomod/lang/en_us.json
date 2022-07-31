@@ -6,6 +6,11 @@
   "item.kellomod.amethyst_axe": "Amethyst Axe",
   "item.kellomod.amethyst_hoe": "Amethyst Hoe",
   "item.kellomod.amethystbow": "Amethyst Bow",
+  "item.kellomod.amethystnetherite_sword": "Amethyst Netherite Sword",
+  "item.kellomod.amethystnetherite_pickaxe": "Amethyst Netherite Pickaxe",
+  "item.kellomod.amethystnetherite_shovel": "Amethyst Netherite Shovel",
+  "item.kellomod.amethystnetherite_axe": "Amethyst Netherite Axe",
+  "item.kellomod.amethystnetherite_hoe": "Amethyst Netherite Hoe",
   "item.kellomod.amethystclock": "Amethyst Clock",
 
       // Armor
@@ -28,6 +33,12 @@
   "item.kellomod.amethyst_mutton": "Amethyst Mutton",
   "item.kellomod.amethyst_beetroot": "Amethyst Beetroot",
   "item.kellomod.amethyst_potato": "Amethyst Potato",
+  "item.kellomod.amethyst_cookie": "Amethyst Cookie",
+  "item.kellomod.amethyst_melon_slice": "Amethyst Melon Slice",
+  "item.kellomod.amethyst_poisonous_potato": "Amethyst Poisonous Potato",
+  "item.kellomod.amethyst_rabbit": "Amethyst Rabbit",
+  "item.kellomod.amethyst_rotten_flesh": "Amethyst Rotten Flesh",
+  "item.kellomod.amethyst_sweet_berries": "Amethyst Sweet Berries",
 
     // Potions
   "item.minecraft.potion.effect.glowing_potion": "Glowing Potion",
@@ -44,6 +55,7 @@
   "item.kellomod.amethyst_disc_fragment": "Amethyst Disc Fragment",
   "item.kellomod.amethystnetherite_ingot": "Amethyst Netherite Ingot",
   "item.kellomod.amethyst_coal": "Amethyst Coal",
+  "item.kellomod.amethystshears": "Amethyst Shears",
 
     // Blocks
   "block.kellomod.chiseled_amethyst_block": "Chiseled Amethyst Block",
@@ -74,6 +86,9 @@
   "block.kellomod.purple_sculk_sensor": "Purple Sculk Sensor",
   "block.kellomod.purple_sculk_bricks": "Purple Sculk Bricks",
   "block.kellomod.deepstone_bricks": "Deepstone Bricks",
+  "block.kellomod.smooth_basalt_bricks": "Smooth Basalt Bricks",
+  "block.kellomod.smooth_basalt_brick_stairs": "Smooth Basalt Brick Stairs",
+  "block.kellomod.smooth_basalt_brick_slab": "Smooth Basalt Brick Slab",
 
   // Entities
   "entity.minecraft.villager.kellomod.gemologist": "Gemologist",
