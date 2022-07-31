@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "kellomod:calcite_tiles"
+  },
+  "result": "kellomod:calcite_tiles_slab"
+}

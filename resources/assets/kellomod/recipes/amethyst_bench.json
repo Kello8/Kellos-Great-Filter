@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "item": "kellomod:amethyst_bench"
+  }
+}

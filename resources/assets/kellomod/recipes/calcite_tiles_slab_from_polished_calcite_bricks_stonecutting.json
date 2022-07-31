@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "kellomod:polished_calcite_bricks"
+  },
+  "count": 2,
+  "result": "kellomod:calcite_tiles_slab"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "kellomod:amethyst_stem"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "kellomod:amethyst_planks"
+  }
+}

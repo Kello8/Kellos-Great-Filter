@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kellomod:cut_amethyst"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "kellomod:cut_amethyst_slab"
+  }
+}

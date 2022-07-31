@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kellomod:amethyst_bricks"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "kellomod:amethyst_bricks_slab"
+  }
+}
