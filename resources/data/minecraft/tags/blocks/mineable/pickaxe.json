@@ -20,6 +20,9 @@
     "kellomod:chiseled_amethyst_block",
     "kellomod:amethyst_bench",
     "kellomod:deepstone_bricks",
-    "kellomod:calcite_pillar"
+    "kellomod:calcite_pillar",
+    "kellomod:smooth_basalt_bricks",
+    "kellomod:smooth_basalt_brick_slab",
+    "kellomod:smooth_basalt_brick_stairs"
   ]
 }
