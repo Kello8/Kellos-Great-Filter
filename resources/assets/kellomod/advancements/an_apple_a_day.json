@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "kellomod:amethyst_apple"
+    },
+    "title": "An Apple A Day",
+    "description": "Craft an Amethyst Apple from a Golden Apple!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "kellomod:a_crunchy_snack",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kellomod:amethyst_apple"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

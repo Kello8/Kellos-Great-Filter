@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "kellomod:amethyst_music_disc"
+    },
+    "title": "An Eerie Tune",
+    "description": "Craft an Amethyst Disc",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "kellomod:glass_pickaxe",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kellomod:amethyst_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

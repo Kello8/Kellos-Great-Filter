@@ -1,0 +1,216 @@
+{
+  "parent": "kellomod:an_apple_a_day",
+  "criteria": {
+    "rabbit": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_rabbit"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cookie": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_cookie"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "poisonous_potato": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_poisonous_potato"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "melon_slice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_melon_slice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_rotten_flesh"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_sweet_berries"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "chicken": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_chicken"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mutton": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_mutton"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "potato": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_potato"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "beetroot": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_beetroot"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "apple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_apple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "godapple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_god_apple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "beef": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_beef"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "bread": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_bread"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "carrot": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_carrot"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Consume Every Piece of Amethyst Food",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "kellomod:amethyst_carrot"
+    },
+    "show_toast": true,
+    "title": "An Odd Diet"
+  },
+  "requirements": [
+    [
+      "chicken"
+    ],
+    [
+      "mutton"
+    ],
+    [
+      "potato"
+    ],
+    [
+      "beetroot"
+    ],
+    [
+      "godapple"
+    ],
+    [
+      "apple"
+    ],
+    [
+      "carrot"
+    ],
+    [
+      "bread"
+    ],
+    [
+      "rabbit"
+    ],
+    [
+      "cookie"
+    ],
+    [
+      "melon_slice"
+    ],
+    [
+      "poisonous_potato"
+    ],
+    [
+      "rotten_flesh"
+    ],
+    [
+      "sweet_berries"
+    ],
+    [
+      "beef"
+    ]
+  ],
+  "rewards": {
+    "experience": 750
+  }
+}
