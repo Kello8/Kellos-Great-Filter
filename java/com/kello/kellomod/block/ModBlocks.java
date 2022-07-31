@@ -39,6 +39,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSTONE_BRICKS = registerBlock("deepstone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(10.0f).sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SMOOTH_BASALT_BRICKS = registerBlock("smooth_basalt_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.8f).sound(SoundType.STONE).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SMOOTH_BASALT_BRICK_SLAB = registerBlock("smooth_basalt_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.8f).sound(SoundType.STONE)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SMOOTH_BASALT_BRICK_STAIRS = registerBlock("smooth_basalt_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.SMOOTH_BASALT_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.AMETHYST).strength(0.8f).sound(SoundType.STONE)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> AMETHYST_BENCH = registerBlock("amethyst_bench",
             () -> new Block(BlockBehaviour.Properties.of(Material.NETHER_WOOD)
                     .strength(3f).sound(SoundType.AMETHYST)), CreativeModeTab.TAB_DECORATIONS);
