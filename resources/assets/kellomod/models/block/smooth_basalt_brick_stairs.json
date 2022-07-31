@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "kellomod:block/smooth_basalt_bricks",
+    "side": "kellomod:block/smooth_basalt_bricks",
+    "top": "kellomod:block/smooth_basalt_bricks"
+  }
+}
