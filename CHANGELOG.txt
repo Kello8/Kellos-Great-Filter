@@ -1,56 +1,31 @@
-v0.1.19
-- Added Amethyst Netherite Sword
-- Added Amethyst Netherite Axe
-- Added Amethyst Netherite Pickaxe
-- Added Amethyst Netherite Shovel
-- Added Amethyst Netherite Hoe
-- Added Amethyst Shears
+v0.1.20
+Added New Potions
+- Blindness (Awkward Potion + Ink Sac)
+- Darkness (Blindness Potion + Glowstone)
+- Resistance I (Awkward Potion + Obsidian)
+- Resistance II (Resistance Potion I + Ancient Debris)
+- Resistance III (Resistance Potion II + Ancient Debris)
+- Resistance IV (Resistance Potion III + Netherite Ingot)
+- Conduit Power (Water Breathing Potion + Nautilus Shell)
+- Bad Omen (Awkward Potion + Crossbow)
 
-- Added Amethyst Cookie
-- Added Amethyst Rabbit
-- Added Amethyst Melon Slice
-- Added Amethyst Poisonous Potato
-- Added Amethyst Rotten Flesh
-- Added Amethyst Sweet Berries
+Added New Items
+- Amethyst Netherite Bow
+- Flint and Amethyst
+- Gilded Netherite (Sneak Peak of next Update)
 
-- Added Smooth Basalt Bricks
-- Added Smooth Basalt Brick Slab
-- Added Smooth Basalt Brick Stairs
+Added New Blocks
+- Obsidian Bricks
+- Cut Obsidian
+- Chiseled Obsidian
+- Obsidian Pillar
 
-- Added Advancement 'Incredible Dedication'
-- Updated Advancement 'An Odd Diet' to new Food items
-- Increased Experience Reward for 'An Odd Diet' from 500 to 750
+Villager Changes
+- New Profession Record Trader (Jukebox)
+- Added Amethyst Sweet Berries to Gemologist
+- Added Amethyst Shears to Gemologist
 
-
-- Fixed Issue: Axes are slower at mining wood than by hand
-
-
-
----
-v0.1.18
-Added Blocks,
-- Added Purple Sculk
-- Added Purple Sculk Bricks
-- Added Purple Sculk Alter
-- Added Deepstone
-- Added Enchant 'Fang Striker'
-- Added Amethyst Stem
-- Added Amethyst Planks
-- Added Amethyst Slab
-
-AMETHYST GOD APPLE CHANGES
--Lower Resistence from blocking 200% damage to 80%
--Lower Regeneration to level 2 instead of 3
--Lower Strength to level 4 from 5
--Increase duration of Resistence by 1.5x
--Increase duration of Glowing by 2x
--Increase duration of Fire Resistence by 2x
--Increased duration of Strength by 1.5x
--Decreased duration of saturation by 0.25x
-
-
-
-Known Issues,
-- Axes now mine slower than by hand.
-- Putting 2 Amethyst Slabs on eachother shows missing texture.
-- Amethyst Bricks don't have a loot_table
+Recipe Changes
+- Added Obsidian to Stonecutter
+- You can make Amethyst Netherite Bow from any bow (Excluding crossbow)
+- Fixed Amethyst Shears recipe (Previously Unobtainable)
