@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:obsidian"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "minecraft:chests/end_city_treasure"
+        }
+      ]
+    }
+  ]
+}
