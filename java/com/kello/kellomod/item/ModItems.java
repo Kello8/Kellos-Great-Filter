@@ -19,6 +19,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> AMETHYSTBOW = ITEMS.register("amethystbow",
             () -> new BowItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(456)));
+    public static final RegistryObject<Item> AMETHYSTNETHERITEBOW = ITEMS.register("amethystnetheritebow",
+            () -> new BowItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(3056).fireResistant()));
     public static final RegistryObject<Item> AMETHYSTNETHERITE_SWORD = ITEMS.register("amethystnetherite_sword",
             () ->  new SwordItem(AMETHYSTNETHERITE, 5, -2.4F,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant()));
@@ -75,6 +77,8 @@ public class ModItems {
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant()));
     public static final RegistryObject<Item> AMETHYSTCLOCK = ITEMS.register("amethystclock",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1).fireResistant()));
+    public static final RegistryObject<Item> FLINT_AND_AMETHYST = ITEMS.register("flint_and_amethyst",
+            () -> new FlintAndSteelItem(new Item.Properties().durability(563).tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> AMETHYSTSHEARS = ITEMS.register("amethystshears",
             () -> new ShearsItem(new Item.Properties().stacksTo(1).durability(576).tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> AMETHYST_BREAD = ITEMS.register("amethyst_bread",
@@ -110,6 +114,8 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST_COAL = ITEMS.register("amethyst_coal",
             () -> new AmethystCoalItem(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> AMETHYSTNETHERITE_INGOT = ITEMS.register("amethystnetherite_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).fireResistant()));
+    public static final RegistryObject<Item> GILDED_NETHERITE_INGOT = ITEMS.register("gilded_netherite_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).fireResistant()));
     public static final RegistryObject<Item> AMETHYST_DISC_FRAGMENT = ITEMS.register("amethyst_disc_fragment",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

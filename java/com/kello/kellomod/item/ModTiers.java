@@ -12,6 +12,8 @@ public class ModTiers {
             () -> Ingredient.of(Items.AMETHYST_SHARD));
     public static final ForgeTier AMETHYSTNETHERITE = new ForgeTier(7, 3032, 3.5F, 2F, 50, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(Items.NETHERITE_INGOT));
-    public static final ForgeTier AMETHYSTNETHERITEAXE = new ForgeTier(7, 30132, 2.5F, 8F, 50, BlockTags.NEEDS_DIAMOND_TOOL,
+    public static final ForgeTier AMETHYSTNETHERITEAXE = new ForgeTier(7, 3032, 2.5F, 8F, 50, BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(Items.NETHERITE_INGOT));
+    public static final ForgeTier GILDED_NETHERITE = new ForgeTier(7, 356, 2.0F, 7F, 40, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(Items.NETHERITE_INGOT));
 }

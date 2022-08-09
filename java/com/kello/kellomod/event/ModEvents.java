@@ -1,7 +1,8 @@
 package com.kello.kellomod.event;
 
 import com.kello.kellomod.block.ModBlocks;
-import com.kello.kellomod.villager.ModVillagers;
+import com.kello.kellomod.villager.ModVillagerGemologist;
+import com.kello.kellomod.villager.ModVillagerRecordtrader;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import com.kello.kellomod.KelloMod;
 import com.kello.kellomod.item.ModItems;
@@ -20,10 +21,350 @@ import java.util.List;
 public class ModEvents {
     @SubscribeEvent
     public static void addCustomTrades(VillagerTradesEvent event) {
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 50);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_11, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 50);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_13, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 48);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_11, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 48);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_13, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 52);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_CAT, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 48);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_STAL, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 48);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_MALL, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 46);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_CAT, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 42);
+            int villagerLevel = 3;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_STAL, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 42);
+            int villagerLevel = 3;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_BLOCKS, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 42);
+            int villagerLevel = 3;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_WAIT, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 42);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_WARD, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 42);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_BLOCKS, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 42);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_CHIRP, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 54);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(ModItems.AMETHYST_DISC_FRAGMENT.get(), 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 64);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_OTHERSIDE, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 64);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.MUSIC_DISC_PIGSTEP, 1),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_11, 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 40),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_13, 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 40),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_11, 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 42),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_13, 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 42),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_CAT, 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 40),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_STAL, 1);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 36),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_MALL, 1);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 36),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_CAT, 1);
+            int villagerLevel = 2;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 34),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_STAL, 1);
+            int villagerLevel = 3;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_BLOCKS, 1);
+            int villagerLevel = 3;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_WAIT, 1);
+            int villagerLevel = 3;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_WARD, 1);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_BLOCKS, 1);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_CHIRP, 1);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYST_DISC_FRAGMENT.get(), 1);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    stack,8,36,0.20F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_OTHERSIDE, 1);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 48),
+                    stack,1,36,2.5F));
+        }
+
+        if(event.getType() == ModVillagerRecordtrader.RECORDTRADER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.MUSIC_DISC_PIGSTEP, 1);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 48),
+                    stack,1,36,2.5F));
+        }
+
         if(event.getType() == VillagerProfession.CLERIC) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.EMERALD, 1);
-            int villagerLevel = 3;
+            int villagerLevel = 4;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
                     new ItemStack(Items.AMETHYST_SHARD, 26),
@@ -60,7 +401,7 @@ public class ModEvents {
                     stack,2,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_PICKAXE.get(), 1);
             int villagerLevel = 1;
@@ -70,7 +411,7 @@ public class ModEvents {
                     stack,2,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_COAL.get(), 3);
             int villagerLevel = 1;
@@ -80,7 +421,7 @@ public class ModEvents {
                     stack,16,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_AXE.get(), 1);
             int villagerLevel = 1;
@@ -90,7 +431,7 @@ public class ModEvents {
                     stack,2,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_SHOVEL.get(), 1);
             int villagerLevel = 1;
@@ -100,7 +441,7 @@ public class ModEvents {
                     stack,2,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_HOE.get(), 1);
             int villagerLevel = 1;
@@ -110,7 +451,7 @@ public class ModEvents {
                     stack,2,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_SWORD.get(), 1);
             int villagerLevel = 1;
@@ -120,7 +461,37 @@ public class ModEvents {
                     stack,2,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYSTSHEARS.get(), 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 7),
+                    stack,2,36,0.10F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYSTSHEARS.get(), 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    stack,2,36,0.10F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYSTSHEARS.get(), 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 9),
+                    stack,2,36,0.10F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_COAL.get(), 3);
             int villagerLevel = 2;
@@ -130,7 +501,7 @@ public class ModEvents {
                     stack,16,36,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.AMETHYST_SHARD, 26);
             int villagerLevel = 2;
@@ -140,7 +511,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.EMERALD, 1);
             int villagerLevel = 2;
@@ -150,7 +521,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.AMETHYST_SHARD, 21);
             int villagerLevel = 2;
@@ -160,7 +531,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.EMERALD, 1);
             int villagerLevel = 2;
@@ -170,7 +541,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.AMETHYST_SHARD, 31);
             int villagerLevel = 1;
@@ -180,7 +551,8 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.EMERALD, 1);
             int villagerLevel = 1;
@@ -190,7 +562,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.CALCITE, 8);
             int villagerLevel = 1;
@@ -200,7 +572,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.CALCITE, 8);
             int villagerLevel = 2;
@@ -210,7 +582,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.SMOOTH_BASALT, 8);
             int villagerLevel = 2;
@@ -220,7 +592,7 @@ public class ModEvents {
                     stack,12,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.CALCITE, 8);
             int villagerLevel = 3;
@@ -230,7 +602,7 @@ public class ModEvents {
                     stack,16,12,0.045F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYSTBOW.get(), 1);
             int villagerLevel = 4;
@@ -240,7 +612,7 @@ public class ModEvents {
                     stack,2,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_PICKAXE.get(), 1);
             int villagerLevel = 4;
@@ -250,7 +622,7 @@ public class ModEvents {
                     stack,2,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_SWORD.get(), 1);
             int villagerLevel = 4;
@@ -260,7 +632,7 @@ public class ModEvents {
                     stack,2,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.EMERALD, 1);
             int villagerLevel = 4;
@@ -270,7 +642,7 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(Items.EMERALD, 1);
             int villagerLevel = 5;
@@ -280,7 +652,7 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_DISC_FRAGMENT.get(), 1);
             int villagerLevel = 5;
@@ -290,7 +662,7 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModBlocks.POLISHED_CALCITE_BRICKS.get(), 1);
             int villagerLevel = 5;
@@ -300,7 +672,7 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModBlocks.CHISELED_AMETHYST_BLOCK.get(), 1);
             int villagerLevel = 5;
@@ -310,7 +682,7 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModBlocks.CALCITE_TILES.get(), 1);
             int villagerLevel = 5;
@@ -320,7 +692,7 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.AMETHYST_BREAD.get(), 3);
             int villagerLevel = 5;
@@ -330,13 +702,53 @@ public class ModEvents {
                     stack,16,16,0.10F));
         }
 
-        if(event.getType() == ModVillagers.GEMOLOGIST.get()) {
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-            ItemStack stack = new ItemStack(ModItems.AMETHYST_CARROT.get(), 3);
+            ItemStack stack = new ItemStack(ModItems.AMETHYST_POISONOUS_POTATO.get(), 1);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 1),
+                    stack,32,0,0.0F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYST_SWEET_BERRIES.get(), 3);
             int villagerLevel = 5;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 21),
+                    new ItemStack(Items.EMERALD, 13),
+                    stack,16,16,0.10F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.AMETHYST_SWEET_BERRIES.get(), 3);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 15),
+                    stack,16,16,0.10F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 8);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(ModItems.AMETHYST_SWEET_BERRIES.get(), 21),
+                    stack,16,16,0.10F));
+        }
+
+        if(event.getType() == ModVillagerGemologist.GEMOLOGIST.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 8);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(ModItems.AMETHYST_SWEET_BERRIES.get(), 19),
                     stack,16,16,0.10F));
         }
     }

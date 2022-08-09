@@ -39,6 +39,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSTONE_BRICKS = registerBlock("deepstone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(10.0f).sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(55.0f).explosionResistance(1000).sound(SoundType.STONE).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CUT_OBSIDIAN = registerBlock("cut_obsidian",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(55.0f).explosionResistance(1000).sound(SoundType.STONE).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_OBSIDIAN = registerBlock("chiseled_obsidian",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(55.0f).explosionResistance(1000).sound(SoundType.STONE).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> OBSIDIAN_PILLAR = registerBlock("obsidian_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(55.0f).explosionResistance(1000).sound(SoundType.STONE).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> SMOOTH_BASALT_BRICKS = registerBlock("smooth_basalt_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.8f).sound(SoundType.STONE).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
