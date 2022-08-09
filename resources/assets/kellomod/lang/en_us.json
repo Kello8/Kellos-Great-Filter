@@ -11,7 +11,9 @@
   "item.kellomod.amethystnetherite_shovel": "Amethyst Netherite Shovel",
   "item.kellomod.amethystnetherite_axe": "Amethyst Netherite Axe",
   "item.kellomod.amethystnetherite_hoe": "Amethyst Netherite Hoe",
+  "item.kellomod.amethystnetheritebow": "Amethyst Netherite Bow",
   "item.kellomod.amethystclock": "Amethyst Clock",
+  "item.kellomod.flint_and_amethyst": "Flint and Amethyst",
 
       // Armor
   "item.kellomod.amethyst_helmet": "Amethyst Helmet",
@@ -41,9 +43,33 @@
   "item.kellomod.amethyst_sweet_berries": "Amethyst Sweet Berries",
 
     // Potions
-  "item.minecraft.potion.effect.glowing_potion": "Glowing Potion",
+  "item.minecraft.potion.effect.glowing_potion": "Potion of Glowing",
   "item.minecraft.splash_potion.effect.glowing_potion": "Splash Potion of Glowing",
   "item.minecraft.lingering_potion.effect.glowing_potion": "Lingering Potion of Glowing",
+  "item.minecraft.potion.effect.blindness_potion": "Potion of Blindness",
+  "item.minecraft.splash_potion.effect.blindness_potion": "Splash Potion of Blindness",
+  "item.minecraft.lingering_potion.effect.blindness_potion": "Lingering Potion of Blindness",
+  "item.minecraft.potion.effect.darkness_potion": "Potion of Darkness",
+  "item.minecraft.splash_potion.effect.darkness_potion": "Splash Potion of Darkness",
+  "item.minecraft.lingering_potion.effect.darkness_potion": "Lingering Potion of Darkness",
+  "item.minecraft.potion.effect.resistance_potion_1": "Potion of Resistance I",
+  "item.minecraft.splash_potion.effect.resistance_potion_1": "Splash Potion of Resistance I",
+  "item.minecraft.lingering_potion.effect.resistance_potion_1": "Lingering Potion of Resistance I",
+  "item.minecraft.potion.effect.resistance_potion_2": "Potion of Resistance II",
+  "item.minecraft.splash_potion.effect.resistance_potion_2": "Splash Potion of Resistance II",
+  "item.minecraft.lingering_potion.effect.resistance_potion_2": "Lingering Potion of Resistance II",
+  "item.minecraft.potion.effect.resistance_potion_3": "Potion of Resistance III",
+  "item.minecraft.splash_potion.effect.resistance_potion_3": "Splash Potion of Resistance III",
+  "item.minecraft.lingering_potion.effect.resistance_potion_3": "Lingering Potion of Resistance III",
+  "item.minecraft.potion.effect.resistance_potion_4": "Potion of Resistance IV",
+  "item.minecraft.splash_potion.effect.resistance_potion_4": "Splash Potion of Resistance IV",
+  "item.minecraft.lingering_potion.effect.resistance_potion_4": "Lingering Potion of Resistance IV",
+  "item.minecraft.potion.effect.conduit_power_potion": "Potion of Conduit Power",
+  "item.minecraft.splash_potion.effect.conduit_power_potion": "Splash Potion of Conduit Power",
+  "item.minecraft.lingering_potion.effect.conduit_power_potion": "Lingering Potion of Conduit Power",
+  "item.minecraft.potion.effect.bad_omen_potion": "Potion of Bad Omen",
+  "item.minecraft.splash_potion.effect.bad_omen_potion": "Splash Potion of Bad Omen",
+  "item.minecraft.lingering_potion.effect.bad_omen_potion": "Lingering Potion of Bad Omen",
 
     // Misc
   "item.kellomod.amethyst_music_disc": "Amethyst Music Disc",
@@ -56,6 +82,9 @@
   "item.kellomod.amethystnetherite_ingot": "Amethyst Netherite Ingot",
   "item.kellomod.amethyst_coal": "Amethyst Coal",
   "item.kellomod.amethystshears": "Amethyst Shears",
+
+    // Spawn Eggs
+
 
     // Blocks
   "block.kellomod.chiseled_amethyst_block": "Chiseled Amethyst Block",
@@ -89,9 +118,14 @@
   "block.kellomod.smooth_basalt_bricks": "Smooth Basalt Bricks",
   "block.kellomod.smooth_basalt_brick_stairs": "Smooth Basalt Brick Stairs",
   "block.kellomod.smooth_basalt_brick_slab": "Smooth Basalt Brick Slab",
+  "block.kellomod.obsidian_bricks": "Obsidian Bricks",
+  "block.kellomod.cut_obsidian": "Cut Obsidian",
+  "block.kellomod.chiseled_obsidian": "Chiseled Obsidian",
+  "block.kellomod.obsidian_pillar": "Obsidian Pillar",
 
   // Entities
   "entity.minecraft.villager.kellomod.gemologist": "Gemologist",
+  "entity.minecraft.villager.kellomod.recordtrader": "Record Trader",
 
   // Enchants
   "enchantment.kellomod.fang_striker": "Fang Striker"
