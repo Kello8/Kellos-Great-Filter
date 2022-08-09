@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.1.19-1.19'
+version = '0.1.20-1.19'
 group = 'com.kello.kellomod'
 archivesBaseName = 'kellomod'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -76,11 +76,12 @@ minecraft {
 }
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
-repositories {
+repositories{
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
 }
-
-dependencies {
+dependencies{
     minecraft 'net.minecraftforge:forge:1.19-41.1.0'
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19:3.1.11')
 }
 
 jar {
