@@ -1,6 +1,66 @@
 {
   "parent": "kellomod:an_apple_a_day",
   "criteria": {
+    "rabbit": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_rabbit"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cookie": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_cookie"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "poisonous_potato": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_poisonous_potato"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "melon_slice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_melon_slice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_rotten_flesh"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "item": {
+          "items": [
+            "kellomod:amethyst_sweet_berries"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "chicken": {
       "conditions": {
         "item": {
@@ -129,10 +189,28 @@
       "bread"
     ],
     [
+      "rabbit"
+    ],
+    [
+      "cookie"
+    ],
+    [
+      "melon_slice"
+    ],
+    [
+      "poisonous_potato"
+    ],
+    [
+      "rotten_flesh"
+    ],
+    [
+      "sweet_berries"
+    ],
+    [
       "beef"
     ]
   ],
   "rewards": {
-    "experience": 500
+    "experience": 750
   }
 }
