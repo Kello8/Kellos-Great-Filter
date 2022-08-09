@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-
+    "kellomod:obsidian_bricks",
+    "kellomod:cut_obsidian",
+    "kellomod:chiseled_obsidian",
+    "kellomod:obsidian_pillar"
   ]
 }

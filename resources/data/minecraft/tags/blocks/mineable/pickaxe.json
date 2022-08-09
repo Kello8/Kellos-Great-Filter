@@ -23,6 +23,10 @@
     "kellomod:calcite_pillar",
     "kellomod:smooth_basalt_bricks",
     "kellomod:smooth_basalt_brick_slab",
-    "kellomod:smooth_basalt_brick_stairs"
+    "kellomod:smooth_basalt_brick_stairs",
+    "kellomod:obsidian_bricks",
+    "kellomod:cut_obsidian",
+    "kellomod:chiseled_obsidian",
+    "kellomod:obsidian_pillar"
   ]
 }
