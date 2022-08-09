@@ -1,6 +1,0 @@
-{
-    "parent": "kellomod:item/amethystnetheritebow",
-    "textures": {
-        "layer0": "kellomod:item/amethystnetheritebow_pulling_1"
-    }
-}

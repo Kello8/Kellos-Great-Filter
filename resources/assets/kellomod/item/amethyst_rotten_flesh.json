@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kellomod:item/amethyst_rotten_flesh"
-  }
-}
