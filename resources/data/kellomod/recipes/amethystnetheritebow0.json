@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "kellomod:amethystnetherite_ingot"
+  },
+  "base": {
+    "item": "kellomod:amethystbow"
+  },
+  "result": {
+    "item": "kellomod:amethystnetheritebow"
+  }
+}
